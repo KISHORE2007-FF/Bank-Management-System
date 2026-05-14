@@ -76,7 +76,6 @@ float BankAccount::getBalance() const
     return balance;
 }
 
-// Function to write account to file
 void writeAccount()
 {
     BankAccount acc;
@@ -90,7 +89,6 @@ void writeAccount()
     outFile.close();
 }
 
-// Function to display account details
 void displayAccount(int accNo)
 {
     BankAccount acc;
@@ -113,7 +111,6 @@ void displayAccount(int accNo)
         cout << "\nAccount Not Found!\n";
 }
 
-// Deposit or Withdraw
 void modifyAccount(int accNo, int option)
 {
     BankAccount acc;
